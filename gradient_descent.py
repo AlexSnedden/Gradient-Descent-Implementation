@@ -24,9 +24,3 @@ class gradientDescentOp:
         self.current_min = self.f(self.x)
     def current(self):
         return self.current_min
-
-
-def cool_function(x):
-    # a 3d sine wave
-    x, y = x[0],x[1]
-    return (math.sin(x)**2 + math.cos(y)**2)/(5 + x**2 + y**2)
